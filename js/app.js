@@ -2,12 +2,12 @@ var Slide = document.getElementById('Slide');
 var BackBtn = document.getElementById('BackBtn');
 var NextBtn = document.getElementById('NextBtn');
 
-var slideimages = new Array(
+var slideimages = [
   './images/pic-1.jpg',
   './images/pic-2.jpg',
   './images/pic-3.jpg',
-  './images/pic-4.jpg'
-);
+  './images/pic-4.jpg',
+];
 
 let i = 0;
 
